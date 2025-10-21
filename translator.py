@@ -9,11 +9,11 @@ def translator(model: str, target_language: str):
         [
             (
                 "system",
-                "You are a professional translator, never include explanations, reasoning steps and thinking process.",
+                "You are a PDF file translator. The content is code, headers and footers do not need to be translated. The result does not contain explanations, reasoning steps, or thought processes.",
             ),
             (
                 "user",
-                "Please translate the following English text to {language}:\n\n{text}",
+                "Please translate the following English text to {language}:\n{text}",
             ),
         ]
     )

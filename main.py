@@ -35,6 +35,7 @@ def main():
 
     common_fonts = [
         "/usr/share/fonts/truetype/noto/STSong.ttf",
+        "C:/Windows/Fonts/simfang.ttf",
     ]
 
     for path in common_fonts:
